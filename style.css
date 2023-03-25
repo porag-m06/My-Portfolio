@@ -6,11 +6,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: #e5e5e5;
   margin: 0;
 }
 
-@media (max-width:768px) and (min-width:375px) {
-
+@media (max-width: 768px) and (min-width: 375px) {
   .container-parent {
     display: flex;
     flex-direction: column;
@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 5;
   }
 
   .container-logo {
@@ -63,11 +64,12 @@ body {
 
   .headline {
     width: 100vw;
+    background: #fff;
     background-image: url("./assets/mobile/header-shapes\ mobile.svg");
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    border-bottom-left-radius: 5vw;
+    border-bottom-left-radius: 8vw;
   }
 
   .text-primary {
@@ -119,5 +121,309 @@ body {
 
   ul {
     list-style: none;
+  }
+
+  .works {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+    top: 191.5vw;
+  }
+
+  .cardwork {
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    width: 87.2vw;
+    padding: 4.3vw;
+    margin: 10vw 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portfolio-snap {
+    width: 78.7vw;
+    height: 57.7vw;
+  }
+
+  .left-block {
+    width: 78.7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 3.2vw;
+  }
+
+  .primary-textblock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-title {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 7vw;
+    color: #172b4d;
+    margin: 0;
+  }
+
+  .short-description {
+    width: 63vw;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 3vw;
+    margin-top: 2vw;
+  }
+
+  .zero {
+    padding: 0;
+    margin: 0;
+  }
+
+  .client {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.4vw;
+    color: #344563;
+  }
+
+  .client-tech {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.4vw;
+    color: #7a869a;
+  }
+
+  .primary-block-text2 {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #344563;
+  }
+
+  .tags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    width: 57vw;
+  }
+
+  .tech-tag {
+    background-color: #ebebff;
+    border-radius: 2vw;
+    padding: 1vw 3.2vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3.2vw;
+    color: #6070ff;
+  }
+
+  .action {
+    width: 100%;
+    height: 19vw;
+    position: relative;
+  }
+
+  .action-btn {
+    position: absolute;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    top: 10px;
+    left: 0;
+    bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+    letter-spacing: 0.03vw;
+    color: #396df2;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .headline-about {
+    width: 100vw;
+    background: #fff;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 8vw;
+    position: relative;
+    padding-left: 3%;
+  }
+
+  .zero-mb {
+    margin-bottom: 0;
+  }
+
+  .get-resume {
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    padding: 12px;
+    width: max-content;
+    margin: 4.5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 4.8vw;
+    letter-spacing: 0.03vw;
+    color: #396df2;
+    text-decoration: none;
+  }
+
+  .skillList {
+    width: 88vw;
+    padding: 0.01%;
+    margin: 0.1vw 0.1vw 45vw 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skillframe {
+    width: 99%;
+    margin: 0.5px 0;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+
+  .lframe-head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .l-list {
+    padding: 0;
+    margin: 0 0 0 3%;
+  }
+
+  .lang {
+    background: #f7f7f9;
+    border-radius: 8px;
+    width: 96%;
+    margin: 2%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+  }
+
+  div.skillList h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+    color: #000;
+  }
+
+  div.skillList h4 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    color: #253858;
+  }
+
+  .bdr-btm {
+    border-bottom: 1px solid #dfe1e6;
+  }
+
+  .pdg-top {
+    margin-top: 0;
+  }
+
+  .contact {
+    width: 375px;
+    background: #6070ff;
+    background-image: url("./assets/contact/contact\ form\ shapes-mobile.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 19vw;
+    margin-top: -15vw;
+    z-index: 1;
+  }
+
+  .mod-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 2%;
+  }
+
+  .center-white {
+    color: white;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .contact-primary-two {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .from-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    height: 12.8vw;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    margin: 2% 0%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  textarea {
+    height: 45vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #b3bac5;
+  }
+
+  .get-touch {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 15%;
+  }
+
+  .get-in-touch {
+    background: #fff;
+  }
+
+  .btm-bar {
+    width: 36vw;
+    height: 1.33vw;
+    bottom: 3vw;
+    margin-bottom: 2vw;
+    border-radius: 10px;
+    background: #0d151e;
   }
 }
