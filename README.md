@@ -11,7 +11,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -46,27 +45,40 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-- **N/A**
+- Usage of media query
+- Moblie first design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Prerequisites
-N/A
+In order to run this project you need:
+- General Understanding of HTML & CSS
+- basic Knowledge of Git Commands
+- basic Knowledge of the Terminal Commands
+- basic knowledge of figma
 
 ### Setup
-N/A
+-Clone the repository to your local machine
+-cd to the project folder
+-Open the index.html file on a live server (e.g. using the live server on VSCode) 
 
 ### Install
-N/A
+- Git 
+- NodeJS
+- Texteditor (e.g. VSCode)
+- Linters for CSS Style Check.
 
 ### Usage
-N/A
+- To build a personal portfolio from scratch.
+- Get the basic understanding of resposive web design. 
+- Understanding of converting Figma design to HTML & CSS structure of a webpage.   
 
 ### Run tests
-N/A
+- For CSS Style Standard Check run the command: npx stylelint "**/*.{css,scss}"
+- GitHub Action Flow test. 
 
 ### Deployment
-N/A
+- Live server extension on VS code. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,8 +91,6 @@ N/A
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Detailed skills demostration section]**
 - [ ] **[Detailed Project demostration section]**
