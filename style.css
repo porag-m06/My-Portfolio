@@ -377,13 +377,12 @@ body {
     background: #2230d2;
   }
 
-  
   .contact {
     width: 100vw;
     background: #6070ff;
     background-image: url("./assets/contact/contact\ form\ shapes-mobile.svg");
     background-repeat: no-repeat;
-    background-position: 42vw 0vw;
+    background-position: 42vw 0vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -450,11 +449,11 @@ body {
   }
 
   textarea::placeholder {
-    color: #B3BAC5;
+    color: #b3bac5;
   }
 
   input::placeholder {
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .get-in-touch {
