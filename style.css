@@ -376,4 +376,19 @@ body {
   .get-resume:active {
     background: #2230d2;
   }
+
+  .contact {
+    width: 100vw;
+    background: #6070ff;
+    background-image: url("./assets/contact/contact\ form\ shapes-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 42vw 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 19vw;
+    margin-top: -15vw;
+    z-index: 1;
+  }
 }
