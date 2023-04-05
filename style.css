@@ -376,4 +376,98 @@ body {
   .get-resume:active {
     background: #2230d2;
   }
+
+  .contact {
+    width: 100vw;
+    background: #6070ff;
+    background-image: url("./assets/contact/contact\ form\ shapes-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 19vw;
+    margin-top: -15vw;
+    z-index: 1;
+  }
+
+  .mod-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 2%;
+  }
+
+  .center-white {
+    color: white;
+    text-align: center;
+    padding: 2%;
+  }
+
+  .contact-primary-two {
+    font-family: 'Poppins', sans-serif;
+    padding: 0 5%;
+    margin-top: 0;
+    margin-right: 5%;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .from-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    height: 12.8vw;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    margin: 2% 0%;
+    padding: 3%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 4.53vw;
+  }
+
+  textarea {
+    height: 45vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    color: #b3bac5;
+  }
+
+  textarea::placeholder {
+    color: #b3bac5;
+  }
+
+  input::placeholder {
+    color: #172b4d;
+  }
+
+  .get-in-touch {
+    background: #fff;
+    margin: 0;
+  }
+
+  .btm-bar {
+    width: 36vw;
+    height: 1.33vw;
+    bottom: 3vw;
+    margin-top: 10vw;
+    margin-bottom: 1vw;
+    border-radius: 10px;
+    background: #0d151e;
+  }
 }
