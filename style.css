@@ -382,7 +382,7 @@ body {
     background: #6070ff;
     background-image: url("./assets/contact/contact\ form\ shapes-mobile.svg");
     background-repeat: no-repeat;
-    background-position: 42vw 0vh;
+    background-position: 100% 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -465,7 +465,8 @@ body {
     width: 36vw;
     height: 1.33vw;
     bottom: 3vw;
-    margin-bottom: 2vw;
+    margin-top: 10vw;
+    margin-bottom: 1vw;
     border-radius: 10px;
     background: #0d151e;
   }
