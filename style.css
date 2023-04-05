@@ -377,10 +377,11 @@ body {
     background: #2230d2;
   }
 
+  
   .contact {
     width: 100vw;
     background: #6070ff;
-    background-image: url(./assets/contact/contact\ form\ shapes-mobile.svg);
+    background-image: url("./assets/contact/contact\ form\ shapes-mobile.svg");
     background-repeat: no-repeat;
     background-position: 42vw 0vw;
     display: flex;
@@ -400,6 +401,7 @@ body {
     width: 100%;
     margin-right: 2%;
   }
+
   .center-white {
     color: white;
     text-align: center;
@@ -461,7 +463,6 @@ body {
   }
 
   .btm-bar {
-    margin-top: 49px;
     width: 36vw;
     height: 1.33vw;
     bottom: 3vw;
