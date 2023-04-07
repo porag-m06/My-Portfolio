@@ -233,6 +233,7 @@ ul {
   justify-content: space-between;
   padding: 0;
   width: 14.1vw;
+  margin: 0 1.66vw 0 1.66vw;
 }
 
 .tech-tag {
@@ -364,8 +365,6 @@ ul {
   ul.media-icons {
     margin: 0 0 17vw 5.5vw;
   }
-
-
 
   .works {
     width: 100vw;
