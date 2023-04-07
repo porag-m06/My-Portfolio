@@ -81,10 +81,6 @@ nav ul li a {
   margin-left: 18.05vw;
 }
 
-.media-icons {
-  margin-left: 18.05vw;
-}
-
 ul.media-icons {
   list-style: none;
   padding: 0;
@@ -286,6 +282,17 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
+.action-btn:hover {
+  background: #6070ff;
+  color: white;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.action-btn:active {
+  background: #2230d2;
+}
+
 /* ======================================================================== */
 @media (max-width: 768px) and (min-width: 375px) {
   .container-parent {
@@ -395,16 +402,13 @@ ul {
     color: #7f8cff;
   }
 
-  .media-icons {
+  ul.media-icons {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     width: 50.33vw;
     height: 5.33vw;
-  }
-
-  ul.media-icons {
-    margin: 0 0 17vw 5.5vw;
+    margin: 0 0 36vw 5.5vw;
   }
 
   .works {
@@ -580,16 +584,6 @@ ul {
     justify-content: center;
   }
 
-  .action-btn:hover {
-    background: #6070ff;
-    color: white;
-    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
-  }
-
-  .action-btn:active {
-    background: #2230d2;
-  }
-
   .headline-about {
     width: 100vw;
     background: #fff;
@@ -601,12 +595,23 @@ ul {
     padding-left: 3%;
   }
 
-  .zero-mb {
-    margin-bottom: 0;
+  .about-left-block {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
   }
 
   .zero-mt {
     margin-top: 0;
+  }
+
+  ul.media-icons-abt {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 50.33vw;
+    height: 5.33vw;
+    margin: 0 0 0vw -5.5vw;
   }
 
   .get-resume {
@@ -626,7 +631,7 @@ ul {
   .skillList {
     width: 88vw;
     padding: 0.01%;
-    margin: 0.1vw 0.1vw 45vw 4%;
+    margin: 0.5vw 0.1vw 45vw 4%;
     display: flex;
     flex-direction: column;
     align-items: center;
