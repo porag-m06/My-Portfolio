@@ -123,6 +123,10 @@ ul.media-icons {
   color: #7f8cff;
 }
 
+ul {
+  list-style: none;
+}
+
 .works {
   width: 100vw;
   display: flex;
@@ -221,6 +225,24 @@ ul.media-icons {
   font-size: 1.11vw;
   color: #344563;
   margin: 0 1.66vw 0 1.66vw;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  width: 14.1vw;
+}
+
+.tech-tag {
+  background-color: #ebebff;
+  border-radius: 0.55vw;
+  padding: 0.27vw 0.83vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 0.83vw;
+  color: #6070ff;
 }
 
 @media (max-width: 768px) and (min-width: 375px) {
@@ -343,9 +365,7 @@ ul.media-icons {
     margin: 0 0 17vw 5.5vw;
   }
 
-  ul {
-    list-style: none;
-  }
+
 
   .works {
     width: 100vw;
