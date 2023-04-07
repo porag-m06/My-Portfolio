@@ -169,9 +169,15 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  order:2;
   padding: 0;
   gap: 2vw;
   margin: 24px 22px 27px 11px;
+}
+
+.snap-2,
+.snap-4 {
+  order: 3;
 }
 
 .primary-textblock {
@@ -271,7 +277,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
-
+/* ======================================================================== */
 @media (max-width: 768px) and (min-width: 375px) {
   .container-parent {
     display: flex;
@@ -427,6 +433,7 @@ ul {
     width: 78.7vw;
     height: 57.7vw;
     margin: 0;
+    opacity: 0;
   }
 
   .left-block {
@@ -507,6 +514,43 @@ ul {
     font-weight: 500;
     font-size: 3.2vw;
     color: #6070ff;
+  }
+
+  .snap-1 {
+    background-image: url("./assets/port-snaps/Snapshoot Portfolio1.svg");
+  }
+
+  .snap-2 {
+    background-image: url("./assets/port-snaps/Snapshoot Portfolio2.svg");
+  }
+
+  .snap-3 {
+    background-image: url("./assets/port-snaps/Snapshoot Portfolio3.svg");
+  }
+
+  .snap-4 {
+    background-image: url("/assets/port-snaps/Snapshoot Portfolio4.svg");
+  }
+
+  .snap-1:hover,
+  .snap-2:hover,
+  .snap-3:hover,
+  .snap-4:hover {
+    transform: scale(1.05);
+  }
+
+  .snap-1,
+  .snap-2,
+  .snap-3,
+  .snap-4 {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 8px;
+    padding: 15px 0;
+    transition: transform 1s;
+    order: 1;
   }
 
   .action {
