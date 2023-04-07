@@ -15,7 +15,7 @@ body {
   height: 5vw;
   top: 0;
   left: 0;
-  padding: 0 10.8vw;
+  padding: 0 12.8vw 0 8.5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -93,6 +93,34 @@ ul.media-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.primary-one {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.33vw;
+  letter-spacing: 0.023vw;
+  line-height: 4.16vw;
+  color: #091E42;
+}
+
+.primary-two {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.38vw;
+  color: #344563;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  margin: 0;
+}
+
+.text-media-supporting {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.11vw;
+  color: #7f8cff;
 }
 
 @media (max-width: 768px) and (min-width: 375px) {
@@ -176,6 +204,8 @@ ul.media-icons {
     font-weight: 700;
     font-size: 10.67vw;
     color: #172b4d;
+    letter-spacing: normal;
+    line-height: normal;
   }
 
   .primary-two {
@@ -193,6 +223,7 @@ ul.media-icons {
 
   .text-media-supporting {
     margin-left: 5.4vw;
+    margin-bottom: 3.46vw;
     font-style: normal;
     font-weight: 500;
     font-size: 4.2vw;
