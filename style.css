@@ -187,6 +187,7 @@ ul {
 .card-4 {
   margin-bottom: 9vw;
 }
+
 .snap-1,
 .snap-2,
 .snap-3,
@@ -315,7 +316,7 @@ ul {
   height: 64.16vw;
   margin-top: 0;
   background: #fff;
-  display: flex;                                                                  
+  display: flex;
   align-items: center;
   justify-content: center;
   border-top-right-radius: 12vw;
@@ -416,7 +417,7 @@ div.skillList h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.38vw;
-  color:#344563;
+  color: #344563;
   margin-left: 20px;
 }
 
@@ -429,7 +430,7 @@ div.skillList h4 {
 }
 
 .mr-up {
-  margin-top:  -23vw;
+  margin-top: -23vw;
 }
 
 .get-resume:hover {
@@ -496,45 +497,44 @@ div.text-primary.mod-text {
 }
 
 input,
-  textarea {
-    width: 100%;
-    height: auto;
-    background: #fff;
-    border: 1px solid #cfd8dc;
-    border-radius: 8px;
-    margin: 2% 0%;
-    padding: 3%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1.18vw;
-  }
+textarea {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin: 2% 0%;
+  padding: 3%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.18vw;
+}
 
-  textarea {
-    height: 11.8vw;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1.04vw;
-    color: #b3bac5;
-  }
+textarea {
+  height: 11.8vw;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.04vw;
+  color: #b3bac5;
+}
 
-  textarea::placeholder {
-    color: #b3bac5;
-  }
+textarea::placeholder {
+  color: #b3bac5;
+}
 
-  input::placeholder {
-    color: #172b4d;
-  }
+input::placeholder {
+  color: #172b4d;
+}
 
-  .get-in-touch {
-    background: #fff;
-    margin: 0;
-  }
+.get-in-touch {
+  background: #fff;
+  margin: 0;
+}
 
-  .middle {
-    margin: auto auto 8vw auto;
-  }
+.middle {
+  margin: auto auto 8vw auto;
+}
 
-/* ======================================================================== */
 @media (max-width: 768px) and (min-width: 375px) {
   .top-navigation {
     background-color: white;
@@ -838,7 +838,7 @@ input,
   }
 
   .mr-up {
-    margin-top:  -5vw;
+    margin-top: -5vw;
   }
 
   .about-left-block {
