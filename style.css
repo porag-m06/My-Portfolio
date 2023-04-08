@@ -134,7 +134,7 @@ ul {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 24px;
-  width: 80.27vw;
+  width: 82vw;
   padding: 0;
   margin: 9vw 11vw 0 9vw;
   display: flex;
@@ -146,7 +146,7 @@ ul {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 24px;
-  width: 80.27vw;
+  width: 82vw;
   padding: 0;
   margin: 9vw 11vw 0 9vw;
   display: flex;
@@ -179,6 +179,12 @@ ul {
 
 .card-4 {
   margin-bottom: 9vw;
+}
+.snap-1,
+.snap-2,
+.snap-3,
+.snap-4 {
+  padding: 0;
 }
 
 .snap-1:hover,
