@@ -300,8 +300,9 @@ ul {
 .headline-about {
   width: 100vw;
   height: 64.16vw;
+  margin-top: 0;
   background: #fff;
-  display: flex;
+  display: flex;                                                                  
   align-items: center;
   justify-content: center;
   border-top-right-radius: 12vw;
@@ -721,6 +722,7 @@ div.skillList h4 {
   .headline-about {
     width: 100vw;
     height: auto;
+    margin-top: 15vw;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -731,7 +733,7 @@ div.skillList h4 {
   }
 
   .mr-up {
-    margin-top:  -23vw;
+    margin-top:  -5vw;
   }
 
   .about-left-block {
