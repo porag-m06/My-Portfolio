@@ -425,7 +425,60 @@ div.skillList h4 {
   margin-top:  -23vw;
 }
 
+.get-resume:hover {
+  background: #6070ff;
+  color: white;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+}
 
+.get-resume:active {
+  background: #2230d2;
+}
+
+.contact {
+  width: 100vw;
+  background: #6070ff;
+  background-image: url("./assets/bigger-screen/contactformbackgroundshapes.svg");
+  background-repeat: no-repeat;
+  background-position: 60% -30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 12vw;
+  margin-top: -15vw;
+  margin-left: 2vw;
+  z-index: 1;
+}
+
+.mod-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+div.text-primary.mod-text {
+  margin-top: 8vw;
+}
+
+.center-white {
+  color: white;
+  text-align: center;
+  padding: 2%;
+}
+
+.contact-primary-two {
+  font-family: 'Poppins', sans-serif;
+  padding: 0 26% 0 30%;
+  margin-top: 0;
+  margin-right: 5%;
+  font-weight: 400;
+  font-size: 1.38vw;
+  text-align: center;
+  color: #ebebff;
+}
 
 
 /* ======================================================================== */
@@ -870,6 +923,7 @@ div.skillList h4 {
     justify-content: center;
     border-top-left-radius: 19vw;
     margin-top: -15vw;
+    margin-left: 0;
     z-index: 1;
   }
 
@@ -890,7 +944,7 @@ div.skillList h4 {
 
   .contact-primary-two {
     font-family: 'Poppins', sans-serif;
-    padding: 0 5%;
+    padding: 0 5% 0 6%;
     margin-top: 0;
     margin-right: 5%;
     font-weight: 400;
