@@ -78,13 +78,13 @@ nav ul li a {
 }
 
 .social-media {
-  margin-left: 18.05vw;
+  margin-left: 18.5vw;
 }
 
 ul.media-icons {
   list-style: none;
   padding: 0;
-  margin: 0 0 17vw 18.05vw;
+  margin: 0 0 17vw 18.5vw;
   width: 170.17px;
   display: flex;
   align-items: center;
@@ -165,7 +165,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  order:2;
+  order: 2;
   padding: 0;
   gap: 2vw;
   margin: 24px 22px 27px 11px;
@@ -175,6 +175,10 @@ ul {
 .snap-4 {
   order: 3;
   margin-right: 10px;
+}
+
+.card-4 {
+  margin-bottom: 9vw;
 }
 
 .snap-1:hover,
@@ -244,7 +248,7 @@ ul {
   justify-content: space-between;
   padding: 0;
   width: 14.1vw;
-  margin: 0 1.66vw ;
+  margin: 0 1.66vw;
 }
 
 .tech-tag {
@@ -261,7 +265,7 @@ ul {
   width: 34.44vw;
   height: 10.62vw;
   position: relative;
-  margin: 0 1.66vw ;
+  margin: 0 1.66vw;
 }
 
 .action-btn {
@@ -291,6 +295,59 @@ ul {
 
 .action-btn:active {
   background: #2230d2;
+}
+
+.headline-about {
+  width: 100vw;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 12vw;
+}
+
+.about-left-block {
+  width: 38.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1vw;
+}
+
+.text-primary-abt {
+  width: 100%;
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+
+.zero-ml {
+  margin-left: 0;
+}
+
+ul.media-icons-abt {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 13.88vw;
+  margin: 0;
+  padding: 0;
+}
+
+.get-resume {
+  border: 1px solid #6070ff;
+  border-radius: 6px;
+  padding: 12px;
+  width: max-content;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.18vw;
+  letter-spacing: 0.03vw;
+  color: #396df2;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ======================================================================== */
@@ -365,6 +422,12 @@ ul {
   }
 
   .text-primary {
+    width: 87.5%;
+    margin-top: 25vw;
+    margin-left: 5.4vw;
+  }
+
+  .text-primary-abt {
     width: 87.5%;
     margin-top: 25vw;
     margin-left: 5.4vw;
@@ -587,11 +650,11 @@ ul {
   .headline-about {
     width: 100vw;
     background: #fff;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-top-right-radius: 8vw;
-    position: relative;
     padding-left: 3%;
   }
 
@@ -599,6 +662,12 @@ ul {
     width: 100vw;
     display: flex;
     flex-direction: column;
+  }
+
+  .text-primary-abt {
+    width: 87.5%;
+    margin-top: 25vw;
+    margin-left: 5.4vw;
   }
 
   .zero-mt {
@@ -610,8 +679,7 @@ ul {
     justify-content: space-between;
     align-items: baseline;
     width: 50.33vw;
-    height: 5.33vw;
-    margin: 0 0 0vw -5.5vw;
+    margin: 0 0 0vw 5.5vw;
   }
 
   .get-resume {
