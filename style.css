@@ -41,7 +41,7 @@ nav ul {
 }
 
 nav ul li a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1vw;
@@ -72,11 +72,10 @@ nav ul li a {
   margin-top: 5vw;
   background-image: url("./assets/bigger-screen/Header\ bg.svg");
   background-repeat: no-repeat;
-
   display: flex;
   flex-direction: column;
   border-bottom-left-radius: 12vw;
-  gap: .83vw;
+  gap: 0.83vw;
 }
 
 .text-primary {
@@ -105,7 +104,7 @@ ul.media-icons {
   font-size: 3.33vw;
   letter-spacing: 0.023vw;
   line-height: 4.16vw;
-  color: #091E42;
+  color: #091e42;
 }
 
 .primary-two {
@@ -126,7 +125,7 @@ ul.media-icons {
   color: #7f8cff;
 }
 
-ul {
+nav ul {
   list-style: none;
 }
 
@@ -200,7 +199,7 @@ ul {
 .snap-3:hover,
 .snap-4:hover {
   transform: scale(1.02);
-  transition: transform .8s;
+  transition: transform 0.8s;
 }
 
 .primary-textblock {
@@ -332,8 +331,8 @@ ul {
 
 .text-primary-abt {
   width: 100%;
-  margin-top: 0vw;
-  margin-left: 0vw;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .zero-ml {
@@ -604,12 +603,6 @@ input::placeholder {
     margin-left: 5.4vw;
   }
 
-  .text-primary-abt {
-    width: 87.5%;
-    margin-top: 25vw;
-    margin-left: 5.4vw;
-  }
-
   .primary-one {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -862,7 +855,7 @@ input::placeholder {
     justify-content: space-between;
     align-items: baseline;
     width: 50.33vw;
-    margin: 0 0 0vw 5.5vw;
+    margin: 0 0 0 5.5vw;
   }
 
   .get-resume {
