@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 .logo {
-  color: #6076ff;
+  color: #0123ff;
   font-weight: 700;
   font-size: 1.25vw;
   text-align: center;
@@ -301,7 +301,7 @@ ul.tags {
 }
 
 .action-btn:hover {
-  background: #6070ff;
+  background: #001aff;
   color: white;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
@@ -434,8 +434,8 @@ div.skillList h4 {
 }
 
 .get-resume:hover {
-  background: #6070ff;
-  color: white;
+  background: #fff;
+  color: rgb(0, 0, 0);
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
@@ -942,8 +942,8 @@ input::placeholder {
   }
 
   .get-resume:hover {
-    background: #6070ff;
-    color: white;
+    background: #fff;
+    color: rgb(0, 0, 0);
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
   }
 
