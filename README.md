@@ -12,6 +12,7 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+  - [Loom Walkthrough](#loom-walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -56,6 +57,10 @@
 - [Live Demo Link](https://porag-m06.github.io/My-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Loom Walkthrough <a name="loom-walkthrough"></a>
+>Please check the link below for loom walkthrough video of the project. 
+- [Loom walkthrough video link](https://www.loom.com/share/6c0cfd96543d42ce913192b5f166277a?t=4)
 
 ### Prerequisites
 In order to run this project you need:
