@@ -1,3 +1,4 @@
+// -------- mobile menu navigation STARTS --------
 const navMenu = document.querySelector('.menu-desk');
 const menuIcon = document.querySelector('.menu-icon');
 const menuLinks = document.querySelectorAll('.mlink');
@@ -15,9 +16,10 @@ menuIcon.addEventListener('click', () => {
   }
 });
 
-for(let i =0;i<menuLinks.length; i+=1){
+for (let i = 0; i < menuLinks.length; i += 1) {
   menuLinks[i].addEventListener('click', () => {
     navMenu.setAttribute('item-visibility', 'false');
     menuIcon.setAttribute('cancle-visibility', 'false');
   });
 }
+// -------- mobile menu navigation ENDS --------
