@@ -1,9 +1,6 @@
 const navMenu = document.querySelector('.menu-desk');
 const menuIcon = document.querySelector('.menu-icon');
-
-const menuLinkHome = document.querySelector('.mlinkH');
-const menuLinkAbout = document.querySelector('.mlinkA');
-const menuLinkContact = document.querySelector('.mlinkC');
+const menuLinks = document.querySelectorAll('.mlink');
 
 menuIcon.addEventListener('click', () => {
   const visibilityMenu = navMenu.getAttribute('item-visibility');
@@ -18,15 +15,9 @@ menuIcon.addEventListener('click', () => {
   }
 });
 
-menuLinkHome.addEventListener('click', () => {
-  navMenu.setAttribute('item-visibility', 'false');
-  menuIcon.setAttribute('cancle-visibility', 'false');
-});
-menuLinkAbout.addEventListener('click', () => {
-  navMenu.setAttribute('item-visibility', 'false');
-  menuIcon.setAttribute('cancle-visibility', 'false');
-});
-menuLinkContact.addEventListener('click', () => {
-  navMenu.setAttribute('item-visibility', 'false');
-  menuIcon.setAttribute('cancle-visibility', 'false');
-});
+for(let i =0;i<menuLinks.length; i+=1){
+  menuLinks[i].addEventListener('click', () => {
+    navMenu.setAttribute('item-visibility', 'false');
+    menuIcon.setAttribute('cancle-visibility', 'false');
+  });
+}
