@@ -1,3 +1,5 @@
+import projects from './projectInfo.js';
+
 // -------- mobile menu navigation STARTS --------
 const navMenu = document.querySelector('.menu-desk');
 const menuIcon = document.querySelector('.menu-icon');
@@ -23,3 +25,91 @@ for (let i = 0; i < menuLinks.length; i += 1) {
   });
 }
 // -------- mobile menu navigation ENDS --------
+
+// -------- details popup  window STARTS --------
+const cardDiv = document.querySelector('.works');
+const popupContainer = document.querySelector('.popup-container');
+
+const setPopup = (project, index) => {
+  const popupDiv = document.createElement('div');
+  popupDiv.className = 'popup';
+  popupDiv.innerHTML = `<img class="cancle-btn cancle-btn-${index}" src="./assets/mobile/CancleS.svg" alt="cancle button">
+  <div class="primary-textblock">
+      <h1 class="text-title">${project.titleText}</h1>
+          <div class="short-description">
+              <h3 class="client zero">${project.shortInfoDes[0]}</h3>
+              <img src="./assets/port-snaps/Counter.svg" alt="counter icon">
+              <h4 class="client-tech zero">${project.shortInfoDes[1]}</h4>
+              <img src="./assets/port-snaps/Counter.svg" alt="counter icon">
+              <h4 class="client-tech zero">${project.shortInfoDes[2]}</h4>
+          </div>
+  </div>
+
+  <div class="snap-1">
+      <img class="portfolio-snap" src=${project.projectImgSrc} alt="portfolio info image">
+  </div>
+
+  <div class="pop-detail">
+      <p class="primary-block-text2 zero">Long text goes here...</p>
+
+      <div class="pop-detail-left">
+          <ul class="tags zero">
+              <li class="tech-tag">${project.techTags[0]}</li>
+              <li class="tech-tag">${project.techTags[1]}</li>
+              <li class="tech-tag">${project.techTags[2]}</li>
+          </ul>
+
+          <div class="pop-btn-div">
+              <a href="#" class="action-btn">See live <img src="assets/social/round-btn-icon.svg" alt=""></a>
+              <a href="#" class="action-btn">See source <img src="assets/social/git-btn-icon.svg" alt=""></a>
+          </div>
+
+      </div>
+  </div>`;
+  popupContainer.appendChild(popupDiv);
+  document.querySelector(`.cancle-btn-${index}`).addEventListener('click', () => {
+    if (popupContainer.getAttribute('showPopup') === 'true') {
+      popupContainer.setAttribute('showPopup', 'false');
+      popupContainer.removeChild(popupDiv);
+    }
+  });
+};
+
+for (let i = 0; i < projects.length; i += 1) {
+  const div = document.createElement('div');
+  div.className = 'cardwork';
+  div.innerHTML = `<div class="snap-${i + 1}">
+                <img class="portfolio-snap" src=${projects[i].projectImgSrc} alt="portfolio info image">
+            </div>
+            <div class="left-block">
+                <div class="primary-textblock">
+                    <h1 class="text-title">${projects[i].titleText}</h1>
+                    <div class="short-description">
+                        <h3 class="client zero">${projects[i].shortInfoDes[0]}</h3>
+                        <img src="../assets/port-snaps/Counter.svg" alt="counter icon">
+                        <h4 class="client-tech zero">${projects[i].shortInfoDes[1]}</h4>
+                        <img src="../assets/port-snaps/Counter.svg" alt="counter icon">
+                        <h4 class="client-tech zero">${projects[i].shortInfoDes[2]}</h4>
+                    </div>
+                </div>
+                <p class="primary-block-text2 zero">${projects[i].DescriptionIntro}</p>
+                <ul class="tags zero">
+                    <li class="tech-tag">${projects[i].techTags[0]}</li>
+                    <li class="tech-tag">${projects[i].techTags[1]}</li>
+                    <li class="tech-tag">${projects[i].techTags[2]}</li>
+                </ul>
+                <div class="action">
+                    <a href="#" class="action-btn ${`action-btn-${i + 1}`}">See project</a>
+                </div>
+            </div>`;
+  cardDiv.append(div);
+
+  document.querySelector(`.action-btn-${i + 1}`).addEventListener('click', () => {
+    setPopup(projects[i], i);
+    if (popupContainer.getAttribute('showPopup') === 'false') {
+      popupContainer.setAttribute('showPopup', 'true');
+    }
+  });
+}
+
+// -------- details popup  window ENDS --------
