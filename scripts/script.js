@@ -78,6 +78,7 @@ const setPopup = (project, index) => {
 for (let i = 0; i < projects.length; i += 1) {
   const div = document.createElement('div');
   div.className = 'cardwork';
+  div.id =`card-${i + 1}`;
   div.innerHTML = `<div class="snap-${i + 1}">
                 <img class="portfolio-snap" src=${projects[i].projectImgSrc} alt="portfolio info image">
             </div>
@@ -99,7 +100,7 @@ for (let i = 0; i < projects.length; i += 1) {
                     <li class="tech-tag">${projects[i].techTags[2]}</li>
                 </ul>
                 <div class="action">
-                    <a href="#" class="action-btn ${`action-btn-${i + 1}`}">See project</a>
+                    <a href="#card-${i + 1}" class="action-btn ${`action-btn-${i + 1}`}">See project</a>
                 </div>
             </div>`;
   cardDiv.append(div);
