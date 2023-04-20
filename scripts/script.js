@@ -33,10 +33,10 @@ const popupContainer = document.querySelector('.popup-container');
 const setPopup = (project, index) => {
   const popupDiv = document.createElement('div');
 
-  let descriptionText='';
+  let descriptionText = '';
   if (window.innerWidth > 767) {
     descriptionText = project.Description_lg;
-  }else{
+  } else {
     descriptionText = project.Description_sm;
   }
 
@@ -86,7 +86,7 @@ const setPopup = (project, index) => {
 for (let i = 0; i < projects.length; i += 1) {
   const div = document.createElement('div');
   div.className = 'cardwork';
-  div.id =`card-${i + 1}`;
+  div.id = `card-${i + 1}`;
   div.innerHTML = `<div class="snap-${i + 1}">
                 <img class="portfolio-snap" src=${projects[i].projectImgSrc} alt="portfolio info image">
             </div>
