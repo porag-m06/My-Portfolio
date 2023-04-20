@@ -553,6 +553,10 @@ input::placeholder {
   transition: transform 300ms ease-in;
 }
 
+.popup-container[showPopup="true"] {
+  transform: translateX(0%);
+}
+
 @media (max-width: 768px) and (min-width: 375px) {
   .top-navigation {
     background-color: white;
