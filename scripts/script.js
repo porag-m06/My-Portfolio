@@ -32,6 +32,14 @@ const popupContainer = document.querySelector('.popup-container');
 
 const setPopup = (project, index) => {
   const popupDiv = document.createElement('div');
+
+  let descriptionText='';
+  if (window.innerWidth > 767) {
+    descriptionText = project.Description_lg;
+  }else{
+    descriptionText = project.Description_sm;
+  }
+
   popupDiv.className = 'popup';
   popupDiv.innerHTML = `<img class="cancle-btn cancle-btn-${index}" src="./assets/mobile/CancleS.svg" alt="cancle button">
   <div class="primary-textblock">
@@ -50,7 +58,7 @@ const setPopup = (project, index) => {
   </div>
 
   <div class="pop-detail">
-      <p class="primary-block-text2 zero">Long text goes here...</p>
+      <p class="primary-block-text2 zero">${descriptionText}</p>
 
       <div class="pop-detail-left">
           <ul class="tags zero">
@@ -60,8 +68,8 @@ const setPopup = (project, index) => {
           </ul>
 
           <div class="pop-btn-div">
-              <a href="#" class="action-btn">See live <img src="assets/social/round-btn-icon.svg" alt=""></a>
-              <a href="#" class="action-btn">See source <img src="assets/social/git-btn-icon.svg" alt=""></a>
+              <a href="${project.liveVersionLink}" class="action-btn">See live <img src="assets/social/round-btn-icon.svg" alt=""></a>
+              <a href="${project.sourceLink}" class="action-btn">See source <img src="assets/social/git-btn-icon.svg" alt=""></a>
           </div>
 
       </div>
