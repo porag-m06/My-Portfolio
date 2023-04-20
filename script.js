@@ -25,3 +25,4 @@ for (let i = 0; i < menuLinks.length; i += 1) {
 // -------- mobile menu navigation ENDS --------
 
 // -------- Data Preservation in browser START--------
+// -------- Data Preservation in browser END--------
