@@ -24,5 +24,16 @@ for (let i = 0; i < menuLinks.length; i += 1) {
 }
 // -------- mobile menu navigation ENDS --------
 
-// -------- Data Preservation in browser START--------
-// -------- Data Preservation in browser END--------
+// -------- save data in browser's local storage STARTS --------
+console.log(localStorage);
+
+let fromData = {
+  userName:"porag",
+  userEmail:"porag.m07@gmail.com",
+  userText:"Hello this is good."
+}
+
+localStorage.setItem("UserfromData",JSON.stringify(fromData));
+
+// -------- save data in browser's local storage ENDS --------
+
