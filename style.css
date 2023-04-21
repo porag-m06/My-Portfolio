@@ -531,6 +531,16 @@ input::placeholder {
   color: #172b4d;
 }
 
+.warn {
+  border: 3px solid red;
+}
+
+.e-error {
+  color: yellow;
+  text-align: center;
+}
+
+
 .get-in-touch {
   background: #fff;
   margin: 0;
@@ -1069,6 +1079,11 @@ input::placeholder {
 
   input::placeholder {
     color: #172b4d;
+  }
+
+  .e-error {
+    color: yellow;
+    text-align: left;
   }
 
   .get-in-touch {
