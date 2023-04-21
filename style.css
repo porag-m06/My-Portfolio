@@ -188,10 +188,6 @@ ul.tags {
   margin-right: 10px;
 }
 
-.card-4 {
-  margin-bottom: 9vw;
-}
-
 .snap-1,
 .snap-2,
 .snap-3,
@@ -318,7 +314,7 @@ ul.tags {
 .headline-about {
   width: 100vw;
   height: 64.16vw;
-  margin-top: 0;
+  margin-top: 9vw;
   background: #fff;
   display: flex;
   align-items: center;
@@ -549,6 +545,98 @@ input::placeholder {
   margin: auto auto 8vw auto;
 }
 
+.popup-container {
+  position: fixed;
+  inset: 0 0 0 0;
+  background: rgba(121, 141, 171, 0.3);
+  backdrop-filter: blur(7px);
+  z-index: 1000;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  transform: translateX(100%);
+  transition: transform 300ms ease-in;
+  overflow-y: scroll;
+}
+
+.popup-container[showPopup="true"] {
+  transform: translateX(0%);
+}
+
+.popup {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 16px;
+  width: 80.3vw;
+  padding-bottom: 1.5vw;
+  margin: 10px 0;
+}
+
+.popup .cancle-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.popup .client {
+  font-size: 1.04vw;
+}
+
+.popup .client-tech {
+  font-size: 1.04vw;
+}
+
+.popup .portfolio-snap {
+  margin-top: 30px;
+  width: 76.9vw;
+  height: 40.7vw;
+}
+
+.popup .pop-detail {
+  padding-top: 1.66vw;
+  display: flex;
+  width: 100%;
+}
+
+.popup .primary-block-text2 {
+  width: 70.02%;
+}
+
+.popup .pop-detail-left {
+  width: 29.8%;
+  padding-right: 1.66vw;
+}
+
+.popup .tags {
+  margin-left: 0;
+}
+
+.popup .pop-btn-div {
+  border-top: 1px solid #ebecf0;
+  margin-top: 1.5vw;
+  padding-top: 1.5vw;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popup .action-btn {
+  position: static;
+  border: 1px solid #6070ff;
+  border-radius: 6px;
+  padding: 8.5px 5px;
+  width: 10.42vw;
+  font-weight: 500;
+  font-size: 1.04vw;
+  letter-spacing: 0.03vw;
+  color: #396df2;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 @media (max-width: 768px) and (min-width: 375px) {
   .top-navigation {
     background-color: white;
@@ -719,7 +807,7 @@ input::placeholder {
     border-radius: 16px;
     width: 87.2vw;
     padding: 4.3vw;
-    margin: 10vw 0;
+    margin: 20vw 0 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -835,7 +923,7 @@ input::placeholder {
     flex: 1;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 100%;
     border-radius: 8px;
     padding: 15px 0;
     order: 1;
@@ -870,7 +958,7 @@ input::placeholder {
   .headline-about {
     width: 100vw;
     height: auto;
-    margin-top: 15vw;
+    margin-top: 20vw;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -1098,5 +1186,61 @@ input::placeholder {
     margin-bottom: 1vw;
     border-radius: 10px;
     background: #0d151e;
+  }
+
+  .popup {
+    border-radius: 16px;
+    width: 91.46vw;
+    padding: 4.52vw;
+  }
+
+  .popup .client {
+    font-size: 3.46vw;
+  }
+
+  .popup .client-tech {
+    font-size: 3.46vw;
+  }
+
+  .popup .portfolio-snap {
+    margin-top: 55px;
+  }
+
+  .popup .pop-detail {
+    padding-top: 1.66vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .popup .primary-block-text2 {
+    width: 82.93vw;
+  }
+
+  .popup .pop-detail-left {
+    width: 100%;
+    padding-right: 1.66vw;
+    padding-top: 5vw;
+  }
+
+  .popup .pop-btn-div {
+    margin-top: 5vw;
+    padding-top: 5vw;
+  }
+
+  .popup .action-btn {
+    position: static;
+    border: 1px solid #6070ff;
+    border-radius: 6px;
+    padding: 8.5px 5px;
+    width: 36.25vw;
+    font-weight: 500;
+    font-size: 4vw;
+    letter-spacing: 0.03vw;
+    color: #396df2;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 }
