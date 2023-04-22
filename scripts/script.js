@@ -155,25 +155,25 @@ const messageInput = document.getElementById('message');
 const formChild = document.querySelectorAll('.form-child');
 
 const storeAndPopulateData = () => {
-  let fromData = {
+  const fromData = {
     userName: nameInput.value,
     userEmail: emailInput.value,
-    userText: messageInput.value
-  }
-  localStorage.setItem("fromData", JSON.stringify(fromData));
-}
+    userText: messageInput.value,
+  };
+  localStorage.setItem('fromData', JSON.stringify(fromData));
+};
 
 const populateData = () => {
-  const storedData = JSON.parse(localStorage.getItem("fromData"));
+  const storedData = JSON.parse(localStorage.getItem('fromData'));
   nameInput.value = storedData.userName;
   emailInput.value = storedData.userEmail;
   messageInput.value = storedData.userText;
-}
+};
 
 for (let i = 0; i < formChild.length; i += 1) {
-  formChild[i].addEventListener('focusout', ()=>{
+  formChild[i].addEventListener('focusout', () => {
     storeAndPopulateData();
-  })
+  });
 }
 
 populateData();
