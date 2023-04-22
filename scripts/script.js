@@ -152,7 +152,7 @@ form.addEventListener('submit', (event) => {
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('emil');
 const messageInput = document.getElementById('message');
-const formChild = document.querySelectorAll('.form-child');
+const formChild = document.querySelectorAll('.f-child');
 
 const storeAndPopulateData = () => {
   const fromData = {
