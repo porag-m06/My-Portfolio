@@ -147,3 +147,34 @@ form.addEventListener('submit', (event) => {
 });
 
 // -------- contact email validation ENDS --------
+
+// -------- save data in browser's local storage STARTS --------
+const nameInput = document.getElementById('name');
+const emailInput = document.getElementById('emil');
+const messageInput = document.getElementById('message');
+const formChild = document.querySelectorAll('.-child');
+
+const storeAndPopulateData = () => {
+  const fromData = {
+    userName: nameInput.value,
+    userEmail: emailInput.value,
+    userText: messageInput.value,
+  };
+  localStorage.setItem('fromData', JSON.stringify(fromData));
+};
+
+const populateData = () => {
+  const storedData = JSON.parse(localStorage.getItem('fromData'));
+  nameInput.value = storedData.userName;
+  emailInput.value = storedData.userEmail;
+  messageInput.value = storedData.userText;
+};
+
+for (let i = 0; i < formChild.length; i += 1) {
+  formChild[i].addEventListener('focusout', () => {
+    storeAndPopulateData();
+  });
+}
+
+populateData();
+// -------- save data in browser's local storage ENDS --------
