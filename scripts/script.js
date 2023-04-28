@@ -1,10 +1,10 @@
 import mentors from './data.js';
+
 const mtrGrid = document.querySelector('.mentor');
 
 for (let i = 0; i < mentors.length; i += 1) {
-    const mtrDiv = document.createElement('div');
-    mtrDiv.innerHTML =
-        `<a href="${mentors[i].detailsLink}">
+  const mtrDiv = document.createElement('div');
+  mtrDiv.innerHTML = `<a href="${mentors[i].detailsLink}">
             <img src=${mentors[i].imgSrc} alt="">
             <div class="mtr-detail">
                 <h3>${mentors[i].name}</h3>
@@ -14,5 +14,5 @@ for (let i = 0; i < mentors.length; i += 1) {
             </div>
         </a>`;
 
-    mtrGrid.append(mtrDiv);
+  mtrGrid.append(mtrDiv);
 }
