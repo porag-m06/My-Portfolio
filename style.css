@@ -38,7 +38,6 @@ a {
   padding: 0 23px;
 }
 
-/* HERO MOBILE SECTION */
 .hero {
   background-image: url(./assets/bgm1.png);
   background-position: center;
@@ -120,9 +119,6 @@ a {
   padding-bottom: 60px;
 }
 
-/* HERO MOBILE SECTION */
-
-/* OFFERED COURCES */
 .courses {
   background-image: url(assets/main-offered-cources-m.svg);
   background-position: center;
@@ -205,9 +201,6 @@ a {
   justify-content: center;
 }
 
-/* OFFERED COURCES */
-
-/* FEATURED MENTORS */
 .mentors {
   background-color: white;
   display: flex;
@@ -273,9 +266,6 @@ a {
   font-size: x-small;
 }
 
-/* FEATURED MENTORS */
-
-/* OUR PARTNERS */
 .partner {
   display: flex;
   flex-direction: column;
