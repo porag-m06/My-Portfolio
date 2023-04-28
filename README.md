@@ -1,9 +1,13 @@
 <a name="readme-top"></a>
+
 <div align="center">
   <img src="porag-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
-  <h3><b>Portfolio Project</b></h3>
+  <h3><b>Porag's Web Hero 23</b></h3>
+  <h5>Fullstack web development course page<h5>
+  <h6>Microverse Capstone Project 01 : HTML &amp; CSS, JS</h6>
 </div>
+
 
 # 📗 Table of Contents
 
@@ -12,7 +16,6 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-  - [Loom Walkthrough](#loom-walkthrough)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -28,73 +31,160 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
+<!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Project] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-> This **[Portfolio Project]** is a work towords the demostration of my professional identity. Including the project itself is aimed to showcase my detail introduction as a professional full stack web developer and you are most welcome to here...
+> Describe your project in 1 or 2 sentences.
 
-
+**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a> 
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
 <details>
-  <summary>Web Technologies</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
 ### Key Features <a name="key-features"></a>
-- Usage of media query
-- Moblie first design
+
+> Describe between 1-3 key features of the application.
+
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
->Please check the link below for live demo of the project. 
-- [Live Demo Link](https://porag-m06.github.io/My-Portfolio/)
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Loom Walkthrough <a name="loom-walkthrough"></a>
->Please check the link below for loom walkthrough video of the project. 
-- [Loom walkthrough video link](https://www.loom.com/share/6c0cfd96543d42ce913192b5f166277a?t=4)
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+
 In order to run this project you need:
-- General Understanding of HTML & CSS
-- basic Knowledge of Git Commands
-- basic Knowledge of the Terminal Commands
-- basic knowledge of figma
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
--Clone the repository to your local machine
--cd to the project folder
--Open the index.html file on a live server (e.g. using the live server on VSCode) 
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
 ### Install
-- Git 
-- NodeJS
-- Texteditor (e.g. VSCode)
-- Linters for CSS Style Check.
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
 
 ### Usage
-- To build a personal portfolio from scratch.
-- Get the basic understanding of resposive web design. 
-- Understanding of converting Figma design to HTML & CSS structure of a webpage.   
+
+To run the project, execute the following command:
+
+<!--
+Example command:
+
+```sh
+  rails server
+```
+--->
 
 ### Run tests
-- For CSS Style Standard Check run the command: npx stylelint "**/*.{css,scss}"
-- GitHub Action Flow test. 
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
 
 ### Deployment
-- Live server extension on VS code. 
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author <a name="authors"></a>
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Author2**
 
 - GitHub: [@porag-m06](https://github.com/porag-m06)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
@@ -102,43 +192,71 @@ In order to run this project you need:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Detailed skills demostration section]**
-- [ ] **[Detailed Project demostration section]**
-- [ ] **[Contact Section]**
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
+
 ## ⭐️ Show your support <a name="support"></a>
-As a tech enthusiast, your support is always appreciated. If you like this project please do let me know with your support in any way you see fit. 
+
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to thank MICROVERSE for this wonderful project. Without this platfrom it would not been possible. 
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## ❓ FAQ <a name="faq"></a>
+<!-- FAQ (optional) -->
 
-- **Can I fork this project?**
-  - Yes, feel free to fork and knock yourself out :) . 
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-- **Can I share this project with others?**
-  - Yes, you can share this project for any educational purposes. 
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
